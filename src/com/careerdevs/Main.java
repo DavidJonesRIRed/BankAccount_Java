@@ -7,5 +7,9 @@ public class Main {
         Account myAccount = new Account(123456789, 20.00f,987654321);
 
         myAccount.showAccountDetails();
+
+        Checking myChecking = new Checking(123456789, 20.00f,987654321);
+
+        myChecking.showCheckingAccount();
     }
 }
